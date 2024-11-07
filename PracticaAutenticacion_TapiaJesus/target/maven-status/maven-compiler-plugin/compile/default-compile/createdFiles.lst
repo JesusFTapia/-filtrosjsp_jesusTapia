@@ -1,0 +1,4 @@
+com\mycompany\practicaautenticacion_tapiajesus\resources\JakartaEE10Resource.class
+servlets\login.class
+filtros\FiltroAutenticacion.class
+com\mycompany\practicaautenticacion_tapiajesus\JakartaRestConfiguration.class

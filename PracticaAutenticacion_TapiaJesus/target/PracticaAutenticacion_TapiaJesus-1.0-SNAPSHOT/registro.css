@@ -1,0 +1,103 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 nov 2024, 11:55:29 p.m.
+    Author     : USER
+*/
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #BB0E22;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    border: 2px solid #BB0E22;
+}
+
+fieldset {
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #3F51B5;
+}
+
+label {
+    font-weight: bold;
+    color: #FFFF00;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ff2a68;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label[for="normal"],
+label[for="fuego"],
+label[for="agua"],
+label[for="planta"],
+label[for="eléctrico"],
+label[for="hielo"],
+label[for="lucha"],
+label[for="veneno"],
+label[for="tierra"],
+label[for="volador"],
+label[for="psíquico"],
+label[for="bicho"],
+label[for="roca"],
+label[for="fantasma"],
+label[for="dragón"],
+label[for="siniestro"],
+label[for="acero"],
+label[for="hada"] {
+    margin-right: 15px;
+    font-weight: bold;
+    color: #0A0A0A;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #ff2a68;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #ff1a5f;
+}
+
+textarea::placeholder {
+    font-style: italic;
+    color: #888;
+}
