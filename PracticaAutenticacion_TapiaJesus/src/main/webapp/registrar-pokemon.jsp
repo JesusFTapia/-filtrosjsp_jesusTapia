@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="./registro.css"/>
     </head>
      <body>
-    <form action="registrarPokemon" method="GET">
+    <form action="registrarPokemon" method="POST">
       <fieldset>
         <legend>Información del Pokémon</legend>
         <label for="Nombre">Nombre:</label>

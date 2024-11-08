@@ -1,4 +1,6 @@
-com\mycompany\practicaautenticacion_tapiajesus\resources\JakartaEE10Resource.class
 servlets\login.class
 filtros\FiltroAutenticacion.class
+servlets\registrarPokemon.class
 com\mycompany\practicaautenticacion_tapiajesus\JakartaRestConfiguration.class
+com\mycompany\practicaautenticacion_tapiajesus\resources\JakartaEE10Resource.class
+servlets\Pokemon.class
